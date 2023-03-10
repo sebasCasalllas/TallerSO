@@ -6,15 +6,20 @@ Para poder ejecutar la shell para acceder al menu de los servicios ofrecido se r
 
 1. Asignar permisos a la shell mediante el comando "chmod +x" seguido del nombre de la shell, tal cual se ve en el siguiente ejemplo:
 
-´chmod +x menu.sh´
+```
+chmod +x menu.sh
+```
 
 2. Una vez la shel cuente con los permisos, se puede hacer la ejecución de esta de la siguiente forma:
 
-´./menu.sh´
+```
+./menu.sh
+```
 
 3. Una vez ejecutada la shell, se podra visualizar un menu el cual muestra los servicios disponibles. El menu que se visuliza es:
 
-´"- --------------------------------- -"
+```
+"- --------------------------------- -"
 "-  Nombre servidor: [$(hostname)]   -"
 "- --------------------------------- -"
 "-  Menu de administración           -"
@@ -35,4 +40,4 @@ Para poder ejecutar la shell para acceder al menu de los servicios ofrecido se r
 "- --------------------------------- -"
 "-  E. Exit                          -"
 "- --------------------------------- -"
-´
+```
