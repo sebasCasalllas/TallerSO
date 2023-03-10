@@ -40,4 +40,13 @@ chmod +x menu.sh
 "- --------------------------------- -"
 "-  E. Exit                          -"
 "- --------------------------------- -"
+
+Ingrese una opcion [1-7]
+```
+4. Al desplegarse el menu se debe ingresar un numero del 1 al 7 de acuerdo a la opción que requiera.
+
+5. Finalmente cuando termine las configuraciones que requiera la ejecución termina al ingresar la letra "E" y se mostrara el siguiente mensaje:
+
+```
+Gracias!
 ```
