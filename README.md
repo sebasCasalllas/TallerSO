@@ -1,6 +1,8 @@
 # TallerSO
 
-***Ejecución shell menu.sh ***
+## Ejecución shell menu.sh 
+
+---------------------
 
 Para poder ejecutar la shell para acceder al menu de los servicios ofrecido se requiere seguir los siguientes pasos:
 
