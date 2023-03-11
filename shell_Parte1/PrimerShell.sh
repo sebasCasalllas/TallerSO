@@ -2,7 +2,7 @@
 
 cd /home/ubuntu/file_salida
 
-for LINEA in *
+for LINEA in ´cat entrada.in´
 do
     cd /home/ubuntu/file_salida
     touch "$LINEA"
