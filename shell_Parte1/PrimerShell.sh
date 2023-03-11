@@ -1,16 +1,13 @@
 #!/bin/bash
 
-#Variables
-    var1=valor
+cd /home/ubuntu/file_salida
 
-#Ayuda
-    #asd
+for LINEA in *
+do
+    cd /home/ubuntu/file_salida
+    touch "$LINEA"
+done
 
-#Ejecucion
-    echo $var1
-
-    #Solicitar por teclado
-        read -p "Por favor digitar un dato:       " var2
-        echo "------------------------------------------"
-        echo resultado: $var2
-        echo "------------------------------------------"
+cd
+ls /home/ubuntu/file_salida >salida.out
+nl salida.out
