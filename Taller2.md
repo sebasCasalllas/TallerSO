@@ -2,6 +2,7 @@
 
 En la segunda parte del taller lo primero que podemos observar es el despligue del menu con los diferentes servicios que ofrece la shell.
 
+![Despliegue menu](https://user-images.githubusercontent.com/68363695/224464320-25025a8f-29ed-4703-9e53-a8c39e95d89f.png)
 
 A continuación se describe cada uno de estos servicios
 
@@ -9,6 +10,7 @@ A continuación se describe cada uno de estos servicios
 
 Se debe ingresar la opción 1, enseguida se muestra un mensaje en consola que nos pregunta si queremos realizar el cambio, en este caso se debe dar "y" para indicar que si. Luego se mostrara un mensaje en consola que nos pide ingresa el nuevo nombre que le vamos a dar al servidor.
 
+![Cambio nombre servidor](https://user-images.githubusercontent.com/68363695/224464319-d527a75e-9233-4697-9755-0821d59baa88.png)
 
 Lo que hay detras de este punto es el siguiente codigo:
 
@@ -40,6 +42,8 @@ sudo fdisk -l
 
 Ingresar la opción 3, seguido indicar que si queremos realizar el cambio del IP. Luego se mostrara un mensaje por consola preguntando por la IP que queremos que tenga nuestro equipo.
 
+![Cambio de IP](https://user-images.githubusercontent.com/68363695/224464318-7c376df7-1eea-4820-89b8-5f93ee0ed34d.png)
+
 Mediente el comando "ifconfig" podemos realizar cambios de la ip del servidor, como ejemplo se presenta la siguiente sentencia:
 
 ```
@@ -52,6 +56,7 @@ Para poder realizar adecuadamente el cambio del IP debemos proporcionar luego de
 
 Ingresar la opción 4, seguido indicar que si queremos realizar el cambio de la tabla de Hosts. Luego se mostrara un mensaje por consola preguntando por la IP que se quiere asignar al host y seguido aparece otro mensaje en consola preguntando por el host.
 
+![Tabla de host](https://user-images.githubusercontent.com/68363695/224464317-1d0d014d-bb96-425c-a6c5-c1071eec81f3.png)
 
 Para este punto lo que se requiere es modificar un archivo existente dentro del equipo, donde se encuetra la tabla de hosts del equipo. Para facilitar el cambio se solicitan los datos para formar una cadena de texto la cual es ingresada al archivo. Esto se realiza mediante el siguiente comando
 
@@ -65,6 +70,7 @@ En donde "echo" es utilizado para almacenar temporalmente el texto que se encuen
 
 Ingresar la opción 5, seguido indicar que si queremos adicionar los permisos de firewall. Luego se mostrara un mensaje por consola preguntando por el puerto al cual se le quieren poner los permisos.
 
+![Permisos de firewall](https://user-images.githubusercontent.com/68363695/224464323-72aacdc4-1122-44ee-9494-a7bffe5453f6.png)
 
 Para esta configuración se utiliza la siguiente sentencia:
 
@@ -77,6 +83,8 @@ Donde "ufw" es una aplicación de Linux que permite establecer reglas de firewal
 # Editar DNS
 
 Ingresar la opción 6, seguido indicar que si queremos editar el DNS. Luego se mostrara un mensaje por consola preguntando por la IP que se quiere asignar al host y seguido aparece otro mensaje en consola preguntando por el host.
+
+![DNS](https://user-images.githubusercontent.com/68363695/224464322-601bd899-b1aa-4d1f-80a5-cc6b1e6f4b9c.png)
 
 Al igual que con la tabla de Hosts existe un archivo en el sistema que contiene los DNS del equipo, lo que se requiere es editar el archivo para agregar el ip y el host requeridos. Para este se implementa la siguiente sentencia:
 
