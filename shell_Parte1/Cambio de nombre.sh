@@ -4,7 +4,7 @@ cd /home/ubuntu/file_salida
 
 for LINEA in *
 do
-    mv -- "$LINEA" "${LINEA%.*}.csv"
+    mv -- "$LINEA" "${LINEA%.*}-mv.txt"
 done
 
 cd
