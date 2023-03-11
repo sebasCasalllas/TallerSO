@@ -2,9 +2,10 @@
 
 cd /home/ubuntu/file_salida
 
-for LINEA in *
+for LINEA in ´cat entrada.in´
 do
-    mv -- "$LINEA" "${LINEA%.*}.csv"
+    cd /home/ubuntu/file_salida
+    touch "$LINEA"
 done
 
 cd
