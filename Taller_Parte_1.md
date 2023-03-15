@@ -165,3 +165,24 @@ Donde se solicita la siguiente información:
 
 ## 5. Configuración de llaves SSH
 
+En caso de no poder acceder a la cuenta git mediante la proporcion de las credenciales o para facilitar y automatizar el proceso de actualización del repositiorio se debe realizar la configuración de un para de llaves.
+
+1. Crear el par de llaves desde la instacia donde se va a clonar el repositorio. Mediante el siguiente comando
+
+```
+ssh-keygen
+```
+
+Luego dar enter 3 veces para que el par de llaves no queden con contraseña.
+
+2. Usar el comando "cat" seguido de la ruta donde se almaceno la llave publica para acceder a su contenido, esto debido a que la cadena de caracteres que se muestre es la llave publica que vamos a configurar en el repositorio.
+
+3. Ingresar a la configuración de la cuenta de git hub, y dar clic en la opción "SSH and GPG keys" para luego dar clic en "new SSH key".
+
+4. Proporcionar el nombre que dese otorgarle a la llave y pegar el contenido del la llave publica.
+
+5. Por ultimo dar clic en "Add SSH key"
+
+![LLave ](https://user-images.githubusercontent.com/68363695/224461491-bed33165-d59e-40e7-81c5-c3ad6296f356.png)
+
+
