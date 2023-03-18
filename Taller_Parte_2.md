@@ -35,18 +35,29 @@ Ingrese una opcion [1-8]
 
 Cuando selecciona la opción 8 para instalar Docker, se presenta el siguiente mensaje:
 
+![Instalacion Docker parte 1](https://user-images.githubusercontent.com/68363695/226081585-c2ad05df-0e08-4349-98a6-e16c11f7aac9.png)
+
 Se debe ingresar el caracter "y". Luego se vera como se descargar los elementos requeridos para la instalación, adicional de que se muestra el proceso de instalación algo similar a lo de la siguiente imagen:
+
+![Instalacion Docker parte 2](https://user-images.githubusercontent.com/68363695/226081587-56f00adb-a817-4412-81c5-0aae002cb1a3.png)
 
 La shell ejecutada adicional nos muestra la siguiente información:
 
 * Version de docker:
-
+* 
+![Instalacion Docker parte 3](https://user-images.githubusercontent.com/68363695/226081588-aa1932d9-fc91-45a0-b60e-56fb08729ecd.png)
 
 * Permisos de puertos:
 
-* Version de Docker-compose
+![Instalacion Docker parte 4](https://user-images.githubusercontent.com/68363695/226081590-4186d8da-1031-42e5-8d01-6860a87c9406.png)
+
+* Version de Docker-compose:
+
+![Instalacion Docker parte 5](https://user-images.githubusercontent.com/68363695/226081592-7e4aabf3-3b77-4b83-9a34-947d7b78f7f3.png)
 
 * Fin de la instalación:
+
+![Instalacion Docker parte 6](https://user-images.githubusercontent.com/68363695/226081595-c23d9795-bd2c-45a2-918f-81be6643018a.png)
 
 ## 2. Subir cambios a repositorio
 
@@ -71,10 +82,15 @@ chmod +x pushGit.sh
 ```
 3. Si se ejecuta la shell sin ingresar los parametros como se muestra en el anterior punto se muestra el siguiente mensaje:
 
+![Shell parte 1](https://user-images.githubusercontent.com/68363695/226081597-28447350-f7ef-4e2a-b142-d9a89411c695.png)
+
 4. Una vez ejecutada la shell ingresando debidamente los parametros se mostrara el mensaje mostrado en la figura, en este caso como se van a subir los cambios se debe ingresar el caracter "N" para que no inicie el proceso de clonar el repositorio.
+
+![Shell parte 2](https://user-images.githubusercontent.com/68363695/226081580-2828ac12-095b-495d-bfbd-c7da011b0fe6.png)
 
 5. Luego se debe de ir dando enter para que la shell continue con el proceso hace que finalice la subida de los archivos y se termine de ejecutar los comandos. Se podra apreciar algo similar a lo que se observa en la siguiente figura:
 
+![Shell parte 3](https://user-images.githubusercontent.com/68363695/226081581-596223ba-9063-4d97-8319-edf15b16594f.png)
 
 ### Subir cambios de forma manual
 
@@ -156,8 +172,20 @@ Una vez isntalado docker procedemos a verificar la version de Docker y Docker-co
 
 1. Verificar la version de Docker con el comando:
 
+```
+docker --version
+```
+
 Se mostrara algo similar a lo siguiente indicando la versión de Docker que se encuentra instalada en la instancia.
+
+![version](https://user-images.githubusercontent.com/68363695/226081583-41140fac-3104-44ca-bd8c-4b6775082c78.png)
 
 2. Verificar la version de Docker-compose con el comando:
 
+```
+sudo docker-compose --version
+```
+
 Se mostrara algo similar a lo siguiente indicando la versión de Docker-compose que se encuentra instalada en la instancia.
+
+![compose](https://user-images.githubusercontent.com/68363695/226081584-034fc896-b6c6-4e07-8598-09e5c988e529.png)
