@@ -44,7 +44,7 @@ Se debe ingresar el caracter "y". Luego se vera como se descargar los elementos 
 La shell ejecutada adicional nos muestra la siguiente información:
 
 * Version de docker:
-* 
+
 ![Instalacion Docker parte 3](https://user-images.githubusercontent.com/68363695/226081588-aa1932d9-fc91-45a0-b60e-56fb08729ecd.png)
 
 * Permisos de puertos:
@@ -53,7 +53,7 @@ La shell ejecutada adicional nos muestra la siguiente información:
 
 * Version de Docker-compose:
 
-![Instalacion Docker parte 5](https://user-images.githubusercontent.com/68363695/226081592-7e4aabf3-3b77-4b83-9a34-947d7b78f7f3.png)
+![compose](https://user-images.githubusercontent.com/68363695/226081584-034fc896-b6c6-4e07-8598-09e5c988e529.png)
 
 * Fin de la instalación:
 
